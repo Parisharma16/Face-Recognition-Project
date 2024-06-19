@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'welcome.css')}}">
+</head>
+<body>
+<div class="main">
+    <div class="card">
+        <h2 class="email">hii</h2>
+        <h3 class="email">{{email}}</h3>
+        <img src="{{ url_for('video_feed') }}" width="920" height="1000">
+    </div>
+</div>
+</body>
+</html>
